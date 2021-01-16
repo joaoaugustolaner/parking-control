@@ -1,4 +1,4 @@
-package api.parking.entity;
+package api.parking.enums;
 
 public enum Model {
 
