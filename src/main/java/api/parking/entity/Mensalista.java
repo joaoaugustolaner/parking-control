@@ -11,5 +11,6 @@ import lombok.Setter;
 public class Mensalista extends Client{
 
     private Tier tier;
+    private double ammountPaid;
 
 }
