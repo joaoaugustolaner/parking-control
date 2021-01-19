@@ -1,11 +1,9 @@
 package api.parking.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
 public class Client {
 
@@ -14,5 +12,7 @@ public class Client {
     private String cnh;
     private int age;
     private Vehicle[] vehicles;
+
+    public Client() {}
 
 }

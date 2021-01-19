@@ -2,13 +2,11 @@ package api.parking.entity;
 
 import api.parking.enums.Tier;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
-public class Mensalista extends Client{
+public class Mensalist extends Client{
 
     private Tier tier;
     private double ammountPaid;
