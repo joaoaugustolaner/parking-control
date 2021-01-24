@@ -8,8 +8,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Vehicle {
 
-    private Client owner;
+    private Client owner; // um veiculo para um motorista
     private Model model;
     private String plate;
-
 }

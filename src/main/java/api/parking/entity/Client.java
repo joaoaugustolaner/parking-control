@@ -11,7 +11,7 @@ public class Client {
     private String cpf;
     private String cnh;
     private int age;
-    private Vehicle[] vehicles;
+    private Vehicle[] vehicles; // um motorista pra varios veiculos
 
     public Client() {}
 
